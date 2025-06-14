@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Brechó Sustentável</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background-color: #000;
+      color: #fff;
+    }
+    header {
+      background-color: #111;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+      color: #7fff50;
+    }
+    nav {
+      text-align: center;
+      padding: 10px;
+      background-color: #111;
+    }
+    nav a {
+      color: #ccc;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #7fff50;
+    }
+    .hero {
+      background-image: url('https://images.unsplash.com/photo-1603252109303-2751441b2702?auto=format&fit=crop&w=1470&q=80');
+      background-size: cover;
+      background-position: center;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .hero h2 {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 20px;
+      color: #7fff50;
+      font-size: 2em;
+    }
+    .content {
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .content h2 {
+      color: #7fff50;
+      margin-bottom: 20px;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      transition: transform 0.3s;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #111;
+      font-size: 0.9em;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Brechó Sustentável</h1>
+  </header>
+
+  <nav>
+    <a href="#">Início</a>
+    <a href="#">Produtos</a>
+    <a href="#">Sobre</a>
+    <a href="#">Contato</a>
+  </nav>
+
+  <section class="hero">
+    <h2>Moda Consciente, Estilo Autêntico</h2>
+  </section>
+
+  <section class="content">
+    <h2>Escolhas que transformam o mundo</h2>
+    <p>Garimpe peças únicas, reutilize com estilo e apoie a moda sustentável. Nosso brechó é mais que roupas – é uma causa.</p>
+  </section>
+
+  <section class="gallery">
+    <img src="https://images.unsplash.com/photo-1621344127535-770df11b3ce5?auto=format&fit=crop&w=800&q=80" alt="Roupa 1">
+    <img src="https://images.unsplash.com/photo-1618354691373-e706cce0d00c?auto=format&fit=crop&w=800&q=80" alt="Roupa 2">
+    <img src="https://images.unsplash.com/photo-1618354690848-1e94a9d56b6d?auto=format&fit=crop&w=800&q=80" alt="Roupa 3">
+    <img src="https://images.unsplash.com/photo-1593032465171-d9f4c6efc468?auto=format&fit=crop&w=800&q=80" alt="Roupa 4">
+  </section>
+
+  <footer>
+    &copy; 2025 Brechó Sustentável. Todos os direitos reservados.
+  </footer>
+
+</body>
+</html>
